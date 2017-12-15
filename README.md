@@ -19,7 +19,7 @@ Below is a list of command line options (some are required some are optional)
 
 ## Example
 
-The below example posts to example.com/login and loops through all passwords in pass.txt by using 5 threads for more efficient I/O processing. It sends the form data email=test@live.com&password=<the looped password>. It then checks the response string for any occurences of "Invalid password" if it doesn't exist then the program finishes with the printed password, if not it continues the loop
+The below example posts to example.com/login and loops through all passwords in pass.txt by using 5 threads for more efficient I/O processing. It sends the form data email=test@live.com&password=(the looped password). It then checks the response string for any occurences of "Invalid password" if it doesn't exist then the program finishes with the printed password, if not it continues the loop
 
 ```bash
 
@@ -27,7 +27,7 @@ python pocketforce.py -o https://example.com/login -p pass.txt --param email=tes
 
 ```
 
-Note that you must place '%PASS%' without the quotation on the --param option you would like to inject the passwords from the text file
+Note that you must place '%PASS%' without the quotation marks on the --param option you would like to inject the passwords from the text file
 
 
 #### Disclaimer
