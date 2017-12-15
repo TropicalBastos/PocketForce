@@ -4,7 +4,7 @@ An awesome efficient http/https multithreaded bruteforcer
 
 ## Usage:
 
-Below is a the list of command line options (some are required some are optional)
+Below is a list of command line options (some are required some are optional)
 
 ```bash
 
